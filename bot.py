@@ -12,9 +12,9 @@ load_dotenv()
 logging.basicConfig(level=logging.INFO)
 
 # Telegram Bot токен
-API_TOKEN = os.getenv("TELEGRAM_TOKEN")
+API_TOKEN = os.getenv("7708725133:AAE0CS9TbuC4YtNqrMjnVFxcpEFOVU9O0UM")
 # OpenAI API кілті
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = os.getenv("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")
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
